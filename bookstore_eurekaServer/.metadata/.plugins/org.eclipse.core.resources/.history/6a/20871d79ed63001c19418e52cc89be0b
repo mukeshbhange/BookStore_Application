@@ -1,0 +1,13 @@
+package com.bl.eureka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BookstoreEurekaServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookstoreEurekaServerApplication.class, args);
+	}
+
+}

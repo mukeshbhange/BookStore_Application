@@ -1,0 +1,5 @@
+spring.application.name = BOOKSTORE-APIGATEWAY
+server.port = 8995
+
+eureka.client.register-with-eureka=true
+eureka.instance.hostname=localhost

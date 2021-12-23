@@ -1,0 +1,39 @@
+package com.bl.book_services.model;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.Date;
+import java.util.Random;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import com.bl.registration.dto.UserDTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class User {
+	
+	
+	private long id;
+	private String firstName;
+	private String lastName;
+	private String kyc;
+	private LocalDate dob;
+	private String email;
+	private String password;
+	private boolean verify;
+	private int otp;
+	private LocalDateTime purchaseDate;
+	private LocalDateTime expiryDate;
+	private LocalDateTime registerDate; 
+	private LocalDateTime updateDate;
+}

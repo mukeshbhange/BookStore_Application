@@ -1,0 +1,13 @@
+package com.bl.loginException.repository;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.bl.book_services.model.Book;
+
+@Repository
+public interface IOrderRepository extends JpaRepository<Book,Long> {
+	
+
+}

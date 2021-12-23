@@ -1,0 +1,5 @@
+package com.bl.cart_service.services;
+
+public interface ICartServies {
+
+}

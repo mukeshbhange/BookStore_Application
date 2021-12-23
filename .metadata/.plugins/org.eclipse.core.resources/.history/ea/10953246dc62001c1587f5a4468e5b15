@@ -1,0 +1,28 @@
+package com.bl.registration.services;
+
+import java.util.List;
+
+import com.bl.registration.dto.UserDTO;
+import com.bl.registration.exception.LoginException;
+import com.bl.registration.model.User;
+import com.bl.registration.response.Response;
+
+public interface IUserServices {
+
+	User registerUser(UserDTO userDTO);
+
+	List<User> getAllUsers(String loginToken);
+
+	String loginUser(String email, String password) throws LoginException;
+
+	User getUser(String loginToken, long id);
+
+	User deleteUser(String loginToken, long id);
+
+	User editUser(String loginToken, long id, UserDTO user);
+
+	Response resetPassword(String password, String token);
+
+	Response forgotPassword(String email);
+
+}

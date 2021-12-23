@@ -1,0 +1,10 @@
+package com.bl.cart_service.services;
+
+import com.bl.cart_service.dto.CartDTO;
+import com.bl.cart_service.model.Cart;
+
+public interface ICartServies {
+
+	Cart addToCart(String token, CartDTO cartDTO);
+
+}

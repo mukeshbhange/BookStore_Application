@@ -1,0 +1,16 @@
+package com.bl.book_services.exception;
+
+public class BookAlreadyExistsException extends RuntimeException {
+	
+	private static final long serialVersionUID = 1L;
+	private String message;
+
+	public BookAlreadyExistsException(String message) {
+		super(message);
+		this.message = message;
+	}
+
+	public BookAlreadyExistsException() {
+	}
+}
+

@@ -1,0 +1,20 @@
+package com.bl.orderbook.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bl.orderbook.dto.OrderDTO;
+import com.bl.orderbook.model.Order;
+import com.bl.orderbook.repository.IOrderRepository;
+
+public class OrderServices implements IOrderServices {
+	
+	@Autowired
+	private IOrderRepository orderRepo;
+
+	@Override
+	public Order placeOrder(String token, OrderDTO orderDTO) {
+		Order order = new Order(orderDTO);
+		return orderRepo.save(order);	
+	}
+
+}

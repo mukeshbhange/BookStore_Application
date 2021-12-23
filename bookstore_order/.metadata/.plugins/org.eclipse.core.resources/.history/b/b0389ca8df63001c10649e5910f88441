@@ -1,0 +1,90 @@
+package com.bl.orderbook.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.bl.orderbook.dto.OrderDTO;
+import com.bl.orderbook.exception.LoginException;
+import com.bl.orderbook.exception.OrderNotFoundException;
+import com.bl.orderbook.model.Order;
+import com.bl.orderbook.repository.IOrderRepository;
+
+
+@Service
+public class OrderServices implements IOrderServices {
+	
+	@Autowired
+	private IOrderRepository orderRepo;
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	public boolean isLogin(String token) {
+		boolean isLogin = restTemplate.getForObject("http://localhost:8991/verify?token="+token,Boolean.class);
+		return isLogin;
+	}
+
+	@Override
+	public Order placeOrder(String token, OrderDTO orderDTO) throws LoginException {
+		if(token.isEmpty()) {
+			throw new LoginException("Incorrect Token.");
+		}
+		Order order = new Order(orderDTO);
+		return orderRepo.save(order);	
+	}
+
+	@Override
+	public Order cancelOrder(String token, long orderId) throws OrderNotFoundException, LoginException {
+		if(!token.isEmpty()) {
+			Optional<Order> order = orderRepo.findById(orderId);
+			if(order.isPresent()) {
+				order.get().setCancel(true);
+				return orderRepo.save(order.get());
+			}else {
+				throw new OrderNotFoundException("Order of "+orderId+" not found");
+			}
+			
+		}else{
+			throw new LoginException("Incorrect Token.");
+		}
+	}
+
+	@Override
+	public List<Order> allOrders(String token) throws OrderNotFoundException, LoginException {
+		if(!token.isEmpty()) {
+			List<Order> orderList = new ArrayList<>();
+			orderRepo.findAll().forEach(orderList::add);
+			if(orderList.isEmpty()) {
+				throw new OrderNotFoundException("No Data Present in Database,First Add Data");
+			}else {
+				return orderList;
+			}
+		}else{
+			throw new LoginException("Incorrect Token.");
+		}
+	}
+
+	@Override
+	public List<Order> allOrdersById(String token, long userId) throws OrderNotFoundException, LoginException {
+		if(!token.isEmpty()) {
+			List<Order> orderList = orderRepo.findAll();
+			
+			List<Order> byuserOrders = orderList.stream().filter(order->order.getUserId() == userId)
+					.filter(order->!order.isCancel()).collect(Collectors.toList());
+			if(byuserOrders.isEmpty()) {
+				throw new OrderNotFoundException("No Data Present in Database,of This User Id");
+			}else {
+				return byuserOrders;
+			}
+		}else{
+			throw new LoginException("Incorrect Token.");
+		}
+	}
+
+}

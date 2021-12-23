@@ -1,0 +1,83 @@
+package com.bl.book_services.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bl.book_services.dto.BookDTO;
+import com.bl.book_services.exception.BookNotFoundException;
+import com.bl.book_services.exception.LoginException;
+import com.bl.book_services.model.Book;
+import com.bl.book_services.response.Response;
+import com.bl.book_services.services.IBookServices;
+
+@RequestMapping("/bookservices")
+@RestController
+public class BookController {
+	
+	@Autowired
+	private IBookServices bookServices;
+	
+	@PostMapping("/add")
+	public ResponseEntity<Response> addBook(@RequestHeader String token,@RequestBody BookDTO bookDTO) throws LoginException{
+		Book book = bookServices.addBook(token,bookDTO);
+		Response response = new Response("Book Added Successfully",(long)200,book);
+		return new ResponseEntity<Response>(response,HttpStatus.CREATED);
+	}
+	
+	@GetMapping("/getbook")
+	public ResponseEntity<Response> getBook(@RequestHeader String token,@RequestHeader long id) throws LoginException, BookNotFoundException{		
+		if(token.isEmpty()) {
+			Book book =bookServices.getBook(token,id);
+			Response response = new Response("Profile got SuccessFully",(long)200,book);
+			return new ResponseEntity<Response>(response,HttpStatus.OK);	
+		}else {
+			throw new LoginException("Token / id is incoorect");
+		}
+		
+	}
+	
+	@DeleteMapping("/delete")
+	public ResponseEntity<Response> delete(@RequestHeader String token,@RequestHeader long id) throws LoginException, BookNotFoundException{
+		if(token.isEmpty()) {
+			Book book =bookServices.delete(token,id);
+			Response response = new Response("Profile got SuccessFully",(long)200,book);
+			return new ResponseEntity<Response>(response,HttpStatus.OK);
+		}else {
+			throw new LoginException("Token / id is incoorect");
+		}
+	}
+	
+	@GetMapping("/allcandidates")
+	public ResponseEntity<Response> getAllBooks(@RequestHeader String token) throws LoginException, BookNotFoundException{
+		if(token.isEmpty()) {
+			List<Book> allBooks =bookServices.getAllBooks(token);
+			Response response = new Response("All Candidates got SuccessFully",(long)200,allBooks);
+			return new ResponseEntity<Response>(response,HttpStatus.OK);
+		}else {
+			throw new LoginException("Token / id is incoorect");
+		}
+	}
+	
+	@PutMapping("/edit")
+	public ResponseEntity<Response> editBook(@RequestHeader String token, @RequestHeader long id,  @RequestBody BookDTO bookDTO) throws BookNotFoundException, LoginException {
+		if(token.isEmpty()) {
+			Book updatedUser = bookServices.editBook(token, id, bookDTO);
+			Response response = new Response("Updated user successfully",(long)200, updatedUser);
+			return new ResponseEntity<Response>(response, HttpStatus.OK);
+		}else {
+			throw new LoginException("Token / id is incoorect");
+		}
+	}
+
+}

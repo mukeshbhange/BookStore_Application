@@ -1,0 +1,31 @@
+package com.bl.book_services.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bl.book_services.dto.BookDTO;
+import com.bl.book_services.model.Book;
+import com.bl.book_services.response.Response;
+import com.bl.book_services.services.IBookServices;
+
+@RequestMapping
+@RestController("/book-services")
+public class BookController {
+	
+	@Autowired
+	private IBookServices bookServices;
+	
+	@PostMapping("/add")
+	public ResponseEntity<Response> addBook(@RequestHeader String token,@RequestBody BookDTO bookDTO){
+		Book book = bookServices.addBook(token,bookDTO);
+		Response response = new Response("Book Added Successfully",(long)200,book);
+		return new ResponseEntity<Response>(response,HttpStatus.CREATED);
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.bl.orderbook.model;
+
+public class Order {
+	
+	private long bookId;
+	private long userId;
+	private String address;
+	private int quantity;
+	private boolean cancel;
+	private double price;
+
+}

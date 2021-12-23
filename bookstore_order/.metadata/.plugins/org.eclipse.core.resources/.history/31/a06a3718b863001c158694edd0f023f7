@@ -1,0 +1,27 @@
+package com.bl.orderbook.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bl.orderbook.dto.OrderDTO;
+import com.bl.orderbook.response.Response;
+
+@RestController
+@RequestMapping("/order")
+public class OrderController {
+	
+	@Autowired
+	private IOrderService orderService;
+	
+	@PostMapping
+	public ResponseEntity<Response> placeOrder(@RequestHeader String token,@RequestBody OrderDTO orderDTO){
+		
+		
+	}
+
+}

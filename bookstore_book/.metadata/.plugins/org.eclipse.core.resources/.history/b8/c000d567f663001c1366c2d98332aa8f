@@ -1,0 +1,21 @@
+package com.bl.book_services.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import com.bl.book_services.dto.CartDTO;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class Cart {
+	
+	private long id;
+	private long userId;
+	private long bookId;
+	private int quantity;
+}

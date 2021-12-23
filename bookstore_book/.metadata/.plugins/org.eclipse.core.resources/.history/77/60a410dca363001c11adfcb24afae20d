@@ -1,0 +1,26 @@
+package com.bl.book_services.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bl.book_services.dto.BookDTO;
+import com.bl.book_services.exception.LoginException;
+import com.bl.book_services.model.Book;
+import com.bl.book_services.repository.IBookRepository;
+
+@Service
+public class BookServicesImpl implements IBookServices{
+	@Autowired
+	private IBookRepository bookRepo;
+
+	@Override
+	public Book addBook(String token, BookDTO bookDTO)  throws LoginException {
+		if(!token.isEmpty()) {
+			Book book = new Book(bookDTO);
+			return bookRepo.save(book);
+		}else {
+			throw new LoginException("Access Denied...!");
+		}
+	}
+
+}

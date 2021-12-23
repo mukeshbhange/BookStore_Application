@@ -1,0 +1,56 @@
+package com.bl.cart_service.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bl.cart_service.dto.CartDTO;
+import com.bl.cart_service.exception.CartNotFoundException;
+import com.bl.cart_service.exception.LoginException;
+import com.bl.cart_service.model.Cart;
+import com.bl.cart_service.repository.ICartRepository;
+
+@Service
+public class CartServices implements ICartServies{
+	
+	@Autowired
+	private ICartRepository cartRepo;
+
+	public Cart addToCart(String token, CartDTO cartDTO)throws LoginException {
+		if(token.isEmpty()) {
+			throw new LoginException("Incorrect Token.");
+		}
+		Cart cart = new Cart(cartDTO);
+		return cartRepo.save(cart);	
+	}
+
+	@Override
+	public List<Cart> allCartsByUserId(String token, long userId)throws LoginException,CartNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Cart> allCarts(String token)throws LoginException,CartNotFoundException {
+		if(!token.isEmpty()) {
+			List<Cart> cartList = new ArrayList<>();
+			cartRepo.findAll().forEach(cartList::add);
+			if(cartList.isEmpty()) {
+				throw new CartNotFoundException("No Data Present in Database,First Add Data");
+			}else {
+				return cartList;
+			}
+		}else{
+			throw new LoginException("Incorrect Token.");
+		}
+	}
+
+	@Override
+	public Cart removeCart(String token, long cartId)throws LoginException,CartNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

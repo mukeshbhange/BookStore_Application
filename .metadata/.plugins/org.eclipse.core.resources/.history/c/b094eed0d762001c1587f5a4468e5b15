@@ -1,0 +1,22 @@
+package com.bl.registration.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bl.registration.dto.UserDTO;
+import com.bl.registration.model.User;
+
+public class UserServices implements IUserServices {
+	
+	@Autowired
+	private IUserRepo userRepo;
+	
+	
+	
+	@Override
+	public User registerUser(UserDTO userDTO) {
+		User user = new User(userDTO);
+		userRepo.save(user);
+		return null;
+	}
+
+}

@@ -1,0 +1,105 @@
+package com.bl.registration.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bl.registration.dto.UserDTO;
+import com.bl.registration.exception.LoginException;
+import com.bl.registration.exception.UserNotFoundException;
+import com.bl.registration.model.User;
+import com.bl.registration.repository.IUserRepository;
+import com.bl.registration.response.Response;
+import com.bl.registration.util.TokenUtil;
+
+
+@Service
+public class UserServices implements IUserServices {
+	
+	
+	private final  long USER_ID = 101;
+	private final String EMAIL = "bhangemukesh98@gmail.com";
+	private final  String PASSWORD = "Mukesh@000";
+	
+	@Autowired
+	private TokenUtil tokenutil;
+	
+	@Autowired
+	private IUserRepository userRepo;
+
+	@Override
+	public User registerUser(UserDTO userDTO) {
+		User user = new User(userDTO);
+		userRepo.save(user);
+		return user;
+	}
+
+	@Override
+	public List<User> getAllUsers(String loginToken) throws UserNotFoundException, LoginException {
+		if(tokenutil.decodeToken(loginToken) == USER_ID) {
+			List<User> userData = new ArrayList<>();
+			userRepo.findAll().forEach(userData::add);
+			if(userData.isEmpty()) {
+				throw new UserNotFoundException("No Data Present in Database,First Add Data");
+			}else {
+				return userData;
+			}
+		}else {
+			throw new LoginException("Access Denied...!");
+		}
+	}
+
+	@Override
+	public String loginUser(String email, String password) throws LoginException, UserNotFoundException {
+		if (email.equals(this.EMAIL)) {
+			if (password.equals(this.PASSWORD)) {
+				return tokenutil.createToken(this.USER_ID);
+			} else {
+				throw new LoginException("Wrong Password!");
+			}
+		} else {
+			throw new UserNotFoundException("User not exist");
+		}
+	}
+
+	@Override
+	public User getUser(String loginToken, long id)  throws UserNotFoundException, LoginException {
+		if(tokenutil.decodeToken(loginToken) == USER_ID) {
+			if(userRepo.findById(id).isEmpty()) {
+				throw new UserNotFoundException(" "+id+" Id is not Present");
+			}else {
+				return userRepo.findById(id).get();
+
+			}	
+		}else {
+			throw new LoginException("Access Denied...!");
+		}
+	}
+
+	@Override
+	public User deleteUser(String loginToken, long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User editUser(String loginToken, long id, UserDTO user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Response resetPassword(String password, String token) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Response forgotPassword(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

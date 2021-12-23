@@ -1,0 +1,5 @@
+package com.bl.registration.model;
+
+public class User {
+
+}

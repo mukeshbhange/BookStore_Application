@@ -1,0 +1,5 @@
+package com.bl.orderbook.dto;
+
+public class OrderDTO {
+
+}

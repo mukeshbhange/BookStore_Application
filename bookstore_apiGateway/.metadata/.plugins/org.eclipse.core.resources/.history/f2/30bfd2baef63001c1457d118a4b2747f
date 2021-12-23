@@ -1,0 +1,2 @@
+spring.application.name = BOOKSTORE-APIGATEWAY
+server.port = 8995

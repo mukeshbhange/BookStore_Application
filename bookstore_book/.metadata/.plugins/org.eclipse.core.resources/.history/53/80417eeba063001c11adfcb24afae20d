@@ -1,0 +1,10 @@
+package com.bl.book_services.services;
+
+import com.bl.book_services.dto.BookDTO;
+import com.bl.book_services.model.Book;
+
+public interface IBookServices {
+
+	Book addBook(String token, BookDTO bookDTO);
+
+}

@@ -1,0 +1,5 @@
+package com.bl.book_services.services;
+
+public interface IBookServices {
+
+}

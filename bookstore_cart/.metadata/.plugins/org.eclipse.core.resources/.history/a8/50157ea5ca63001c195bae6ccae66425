@@ -1,0 +1,18 @@
+package com.bl.cart_service.services;
+
+import java.util.List;
+
+import com.bl.cart_service.dto.CartDTO;
+import com.bl.cart_service.model.Cart;
+
+public interface ICartServies {
+
+	Cart addToCart(String token, CartDTO cartDTO);
+
+	List<Cart> allOrdersById(String token, long userId);
+
+	List<Cart> allCarts(String token);
+
+	Cart removeCart(String token, long cartId);
+
+}

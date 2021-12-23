@@ -1,0 +1,5 @@
+package com.bl.book_services.model;
+
+public class Book {
+
+}

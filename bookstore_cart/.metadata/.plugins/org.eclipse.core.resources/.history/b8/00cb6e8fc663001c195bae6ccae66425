@@ -1,0 +1,5 @@
+package com.bl.cart_service.dto;
+
+public class CartDTO {
+
+}

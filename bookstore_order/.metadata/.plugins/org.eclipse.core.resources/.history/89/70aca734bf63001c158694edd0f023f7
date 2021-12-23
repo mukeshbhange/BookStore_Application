@@ -1,0 +1,18 @@
+package com.bl.orderbook.repository;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.bl.orderbook.model.Order;
+
+@Repository
+public interface IOrderRepository extends JpaRepository<Order,Long> {
+	
+	/*
+	 * @Query(value="Select * from bookstore_orderDB where email = ?1",nativeQuery=
+	 * true) List findByEmail(String email);
+	 */
+
+}

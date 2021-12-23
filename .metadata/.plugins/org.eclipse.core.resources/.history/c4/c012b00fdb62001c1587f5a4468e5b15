@@ -1,0 +1,106 @@
+package com.bl.registration.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bl.registration.dto.UserDTO;
+import com.bl.registration.model.User;
+import com.bl.registration.response.Response;
+import com.bl.registration.services.IUserServices;
+import com.bl.registration.util.TokenUtil;
+
+import lombok.experimental.UtilityClass;
+
+@RestController
+@RequestMapping("/admin")
+public class UserController {
+	
+	@Autowired
+	private IUserServices userServices;
+	@Autowired
+	private TokenUtil tokenutil;
+	
+	
+	@PostMapping("/register")
+	public ResponseEntity<Response> register(@RequestBody UserDTO userDTO){
+		User user = userServices.registerUser(userDTO);
+		Response response = new Response("Token: "+ tokenutil.createToken(user.getId()),(long)200,user);
+		return new ResponseEntity<Response>(response,HttpStatus.OK);
+	}
+	
+	@GetMapping("/alladmins")
+	public ResponseEntity<Response> getAllUsers(@RequestHeader String loginToken){
+		List<User> users = userServices.getAllUsers(loginToken);
+		Response response = new Response("Get all users successfully",(long)200, users);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+		
+	}
+	
+	@GetMapping("/login")
+	public ResponseEntity<Response> checkUser(@RequestHeader String email, @RequestHeader String password) throws LoginException, UserNotFoundException{
+		String isLogin = lmsServices.loginUser(email, password);
+		Response response = new Response("Login successfully",(long)200, isLogin);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	
+	
+	@GetMapping("/getall")
+	public ResponseEntity<Response> getUsers(@RequestHeader String loginToken) throws LoginException, UserNotFoundException {
+		List<LMS_User> users = lmsServices.getAllUsers(loginToken);
+		Response response = new Response("Get all users successfully",(long)200, users);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	@PostMapping("/add")
+	public ResponseEntity<Response> addUser(@RequestHeader String loginToken,@RequestBody LMS_UserDTO user) throws LoginException{
+		LMS_User savedUser =lmsServices.addUser(loginToken,user);
+		Response response = new Response("Added User SuccessFully",(long)200,savedUser);
+		return new ResponseEntity<Response>(response,HttpStatus.CREATED);
+	}
+	
+	@GetMapping("/get/{id}")
+	public ResponseEntity<Response> getUser(@RequestHeader String loginToken,@PathVariable long id) throws UserNotFoundException, LoginException {
+		LMS_User user = lmsServices.getUser(loginToken, id);
+		Response response = new Response("Get user successfully ",(long)200, user);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	@DeleteMapping("/deleteUser/{id}")
+	public ResponseEntity<Response> deleteUser(@RequestHeader String loginToken, @PathVariable long id) throws UserNotFoundException, LoginException {
+		lmsServices.deleteUser(loginToken,id);
+		Response response = new Response("Deleted user successfully",(long)200, null);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	@PutMapping("/edit/{id}")
+	public ResponseEntity<Response> editUser(@RequestHeader String loginToken, @PathVariable long id,  @RequestBody LMS_UserDTO user) throws UserNotFoundException, LoginException {
+		LMS_User updatedUser = lmsServices.editUser(loginToken, id, user);
+		Response response = new Response("Updated user successfully",(long)200, updatedUser);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	@PostMapping("/forgot")
+	ResponseEntity<Response> forgotPass(@RequestBody ForgotPass forgotPass) throws UserNotFoundException{
+		Response response = lmsServices.forgot(forgotPass);
+		
+		return new ResponseEntity<Response>(response,HttpStatus.OK);
+	}
+	
+	@PostMapping("/reset/{token}")
+	ResponseEntity<Response> resetpass( @RequestParam String password, @PathVariable String token) throws UserNotFoundException {
+		Response response = lmsServices.resetPassword(password, token);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+
+}

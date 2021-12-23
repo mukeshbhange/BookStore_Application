@@ -1,0 +1,13 @@
+package com.bl.orderbook.services;
+
+import com.bl.orderbook.dto.OrderDTO;
+import com.bl.orderbook.exception.LoginException;
+import com.bl.orderbook.model.Order;
+
+public interface IOrderServices {
+
+	Order placeOrder(String token, OrderDTO orderDTO) throws LoginException;
+
+	Order cancelOrder(String token, long orderId);
+
+}

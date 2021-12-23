@@ -1,0 +1,63 @@
+package com.bl.book_services.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bl.book_services.dto.BookDTO;
+import com.bl.book_services.exception.BookNotFoundException;
+import com.bl.book_services.exception.LoginException;
+import com.bl.book_services.model.Book;
+import com.bl.book_services.repository.IBookRepository;
+
+@Service
+public class BookServicesImpl implements IBookServices{
+	@Autowired
+	private IBookRepository bookRepo;
+
+	@Override
+	public Book addBook(String token, BookDTO bookDTO)  throws LoginException {
+		if(!token.isEmpty()) {
+			Book book = new Book(bookDTO);
+			return bookRepo.save(book);
+		}else {
+			throw new LoginException("Access Denied...!");
+		}
+	}
+
+	@Override
+	public Book getBook(String token, long id) throws BookNotFoundException, LoginException {
+		if(token.isEmpty()) {
+			throw new LoginException("Access Denied...!");
+		}else {
+			Optional<Book> isPresent = bookRepo.findById(id);
+			if(isPresent.isPresent()) {
+				return isPresent.get();
+			}else {
+				throw new BookNotFoundException("Book not present of this Id");
+			}
+			
+		}
+	}
+
+	@Override
+	public Book delete(String token, long id)throws BookNotFoundException, LoginException  {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Book> getAllBooks(String token) throws BookNotFoundException, LoginException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Book editBook(String token, long id, BookDTO bookDTO) throws BookNotFoundException, LoginException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

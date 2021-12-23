@@ -1,0 +1,30 @@
+package com.bl.orderbook.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bl.orderbook.dto.OrderDTO;
+import com.bl.orderbook.model.Order;
+import com.bl.orderbook.response.Response;
+import com.bl.orderbook.services.IOrderServices;
+
+@RestController
+@RequestMapping("/order")
+public class OrderController {
+	
+	@Autowired
+	private IOrderServices orderService;
+	
+	@PostMapping
+	public ResponseEntity<Response> placeOrder(@RequestHeader String token,@RequestBody OrderDTO orderDTO){
+		Order order = orderService.placeOrder(token,orderDTO);
+		Response response = new Response("Order Placed Successfully.",(long)200,order);
+		return new ResponseEntity<Response>(response,HttpStatus.CREATED);
+	}
+}

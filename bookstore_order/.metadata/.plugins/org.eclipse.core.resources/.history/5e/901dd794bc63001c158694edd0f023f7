@@ -1,0 +1,59 @@
+package com.bl.orderbook.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bl.orderbook.dto.OrderDTO;
+import com.bl.orderbook.exception.LoginException;
+import com.bl.orderbook.exception.OrderNotFoundException;
+import com.bl.orderbook.model.Order;
+import com.bl.orderbook.repository.IOrderRepository;
+
+
+@Service
+public class OrderServices implements IOrderServices {
+	
+	@Autowired
+	private IOrderRepository orderRepo;
+
+	@Override
+	public Order placeOrder(String token, OrderDTO orderDTO) throws LoginException {
+		if(token.isEmpty()) {
+			throw new LoginException("Incorrect Token.");
+		}
+		Order order = new Order(orderDTO);
+		return orderRepo.save(order);	
+	}
+
+	@Override
+	public Order cancelOrder(String token, long orderId) throws OrderNotFoundException, LoginException {
+		if(!token.isEmpty()) {
+			Optional<Order> order = orderRepo.findById(orderId);
+			if(order.isPresent()) {
+				order.get().setCancel(true);
+				return orderRepo.save(order.get());
+			}else {
+				throw new OrderNotFoundException("Order of "+orderId+" not found");
+			}
+			
+		}else{
+			throw new LoginException("Incorrect Token.");
+		}
+	}
+
+	@Override
+	public List<Order> allOrders(String token) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Order> allOrdersById(String token, long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

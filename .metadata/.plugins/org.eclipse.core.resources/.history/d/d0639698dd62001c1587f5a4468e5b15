@@ -1,0 +1,97 @@
+package com.bl.registration.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bl.registration.dto.UserDTO;
+import com.bl.registration.exception.LoginException;
+import com.bl.registration.exception.UserNotFoundException;
+import com.bl.registration.model.User;
+import com.bl.registration.response.Response;
+import com.bl.registration.services.IUserServices;
+import com.bl.registration.util.TokenUtil;
+
+import lombok.experimental.UtilityClass;
+
+@RestController
+@RequestMapping("/admin")
+public class UserController {
+	
+	@Autowired
+	private IUserServices userServices;
+	@Autowired
+	private TokenUtil tokenutil;
+	
+	
+	@PostMapping("/register")
+	public ResponseEntity<Response> register(@RequestBody UserDTO userDTO){
+		User user = userServices.registerUser(userDTO);
+		Response response = new Response("Token: "+ tokenutil.createToken(user.getId()),(long)200,user);
+		return new ResponseEntity<Response>(response,HttpStatus.OK);
+	}
+	
+	@GetMapping("/allUsers")
+	public ResponseEntity<Response> getAllUsers(@RequestHeader String loginToken) throws LoginException, UserNotFoundException{
+		List<User> users = userServices.getAllUsers(loginToken);
+		Response response = new Response("Get all users successfully",(long)200, users);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+		
+	}
+	
+	@GetMapping("/login")
+	public ResponseEntity<Response> checkUser(@RequestHeader String email, @RequestHeader String password) throws LoginException, UserNotFoundException{
+		String isLogin = userServices.loginUser(email, password);
+		Response response = new Response("Login successfully",(long)200, isLogin);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	
+	@GetMapping("/get/{id}")
+	public ResponseEntity<Response> getUser(@RequestHeader String loginToken,@PathVariable long id) throws UserNotFoundException, LoginException {
+		User user = userServices.getUser(loginToken, id);
+		Response response = new Response("Get user successfully ",(long)200, user);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	@DeleteMapping("/deleteUser/{id}")
+	public ResponseEntity<Response> deleteUser(@RequestHeader String loginToken, @PathVariable long id) throws UserNotFoundException, LoginException {
+		User user = userServices.deleteUser(loginToken,id);
+		Response response = new Response("Deleted user successfully",(long)200, user);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	@PutMapping("/edit/{id}")
+	public ResponseEntity<Response> editUser(@RequestHeader String loginToken, @PathVariable long id,  @RequestBody UserDTO user) throws UserNotFoundException, LoginException {
+		User updatedUser = userServices.editUser(loginToken, id, user);
+		Response response = new Response("Updated user successfully",(long)200, updatedUser);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+	
+	@PostMapping("/forgot")
+	ResponseEntity<Response> forgotPass(@RequestBody String email) throws UserNotFoundException{
+		Response response = userServices.forgotPassword(email);
+		
+		return new ResponseEntity<Response>(response,HttpStatus.OK);
+	}
+	
+	@PostMapping("/reset/{token}")
+	ResponseEntity<Response> resetpass( @RequestParam String password, @PathVariable String token) throws UserNotFoundException {
+		Response response = userServices.resetPassword(password, token);
+		return new ResponseEntity<Response>(response, HttpStatus.OK);
+	}
+
+}

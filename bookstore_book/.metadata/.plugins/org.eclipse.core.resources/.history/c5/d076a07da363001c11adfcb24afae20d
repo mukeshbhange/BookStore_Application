@@ -1,0 +1,20 @@
+package com.bl.book_services.services;
+
+import java.util.List;
+
+import com.bl.book_services.dto.BookDTO;
+import com.bl.book_services.exception.LoginException;
+import com.bl.book_services.model.Book;
+
+public interface IBookServices {
+
+	Book addBook(String token, BookDTO bookDTO) throws LoginException;
+
+	Book getBook(String token, long id);
+
+	Book delete(String token, long id);
+
+	List<Book> getAllBooks(String token);
+
+	Book editBook(String token, long id, BookDTO bookDTO);
+}
