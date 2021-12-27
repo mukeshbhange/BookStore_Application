@@ -1,6 +1,11 @@
 package com.bl.book_services.repository;
 
-
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ * purpose : BookRepository
+ *
+ */
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

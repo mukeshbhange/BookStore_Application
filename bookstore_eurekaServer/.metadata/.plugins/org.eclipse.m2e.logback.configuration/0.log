@@ -180,3 +180,34 @@
 2021-12-23 19:50:09,665 [Worker-11: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-12-23 19:50:09,665 [Worker-11: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-12-23 19:50:09,665 [Worker-11: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_eurekaServer\bookstore_eurekaServer\src\test\resources
+2021-12-24 09:28:10,599 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-24 09:35:02,140 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 09:35:02,141 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 09:35:02,428 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 09:35:02,786 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 09:35:02,790 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 09:35:02,791 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 09:35:03,047 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_eurekaServer\bookstore_eurekaServer\src\test\resources
+2021-12-25 19:17:12,315 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-27 09:43:40,439 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-27 09:46:22,546 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-12-27 09:46:32,809 [Worker-7: Launching bookstore_eurekaServer] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\dell\Desktop\BookStoreProject\bookstore_eurekaServer\bookstore_eurekaServer
+2021-12-27 09:46:32,812 [Worker-7: Launching bookstore_eurekaServer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B  -Dstyle.color=always
+2021-12-27 09:46:54,004 [Worker-1: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-27 09:46:54,005 [Worker-1: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-27 09:46:54,010 [Worker-1: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-27 09:46:54,047 [Worker-1: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-27 09:46:54,051 [Worker-1: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-27 09:46:54,051 [Worker-1: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-27 09:46:54,052 [Worker-1: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_eurekaServer\bookstore_eurekaServer\src\test\resources
+2021-12-27 09:48:15,070 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-12-27 09:48:22,489 [Worker-1: Launching bookstore_eurekaServer (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\dell\Desktop\BookStoreProject\bookstore_eurekaServer\bookstore_eurekaServer
+2021-12-27 09:48:22,491 [Worker-1: Launching bookstore_eurekaServer (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B jar -Dstyle.color=always
+2021-12-27 10:25:00,344 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-27 10:25:00,345 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-27 10:25:00,371 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-27 10:25:00,393 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-27 10:25:00,397 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-27 10:25:00,397 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-27 10:25:00,398 [Worker-7: Launching bookstore_eurekaServer - BookstoreEurekaServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_eurekaServer\bookstore_eurekaServer\src\test\resources
+2021-12-27 11:28:16,128 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

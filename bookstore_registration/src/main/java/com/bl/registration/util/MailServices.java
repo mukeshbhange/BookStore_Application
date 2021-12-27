@@ -15,6 +15,12 @@ import javax.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ * purpose : Sending mail Services
+ *
+ */
 
 @Component
 public class MailServices {

@@ -37,7 +37,14 @@ public class UserServices implements IUserServices {
 		userRepo.save(user);
 		return user;
 	}
+	
 
+	/**
+	 * purpose : to get all Users of BookStore
+	 * 
+	 * @param token
+	 * @return List
+	 */
 	@Override
 	public List<User> getAllUsers(String loginToken)throws LoginException, UserNotFoundException {
 		if(verifyUser(loginToken)) {
@@ -52,7 +59,13 @@ public class UserServices implements IUserServices {
 			throw new LoginException("Access Denied...!");
 		}
 	}
-
+	
+	/**
+	 * purpose : to Login a user
+	 * 
+	 * @param email password
+	 * @return boolean
+	 */
 	@Override
 	public String loginUser(String email, String password) throws LoginException, UserNotFoundException {
 		User user = userRepo.findByEmail(email);
@@ -68,7 +81,13 @@ public class UserServices implements IUserServices {
 		}
 		
 	}
-
+	
+	/**
+	 * purpose : to get a user
+	 * 
+	 * @param loginToken userId
+	 * @return User
+	 */
 	@Override
 	public User getUser(String loginToken, long id)  throws UserNotFoundException, LoginException {
 		if(verifyUser(loginToken)) {
@@ -82,7 +101,14 @@ public class UserServices implements IUserServices {
 			throw new LoginException("Access Denied...!");
 		}
 	}
-
+	
+	
+	/**
+	 * purpose : to delete a user
+	 * 
+	 * @param loginToken userId
+	 * @return Deleted User
+	 */
 	@Override
 	public User deleteUser(String loginToken, long id) throws UserNotFoundException, LoginException {
 		if(verifyUser(loginToken)) {
@@ -97,7 +123,13 @@ public class UserServices implements IUserServices {
 			throw new LoginException("Access Denied...!");
 		}
 	}
-
+	
+	/**
+	 * purpose : to edit a user
+	 * 
+	 * @param loginToken userId UserDTO
+	 * @return User
+	 */
 	@Override
 	public User editUser(String loginToken, long id, UserDTO user)  throws UserNotFoundException, LoginException {
 		if(verifyUser(loginToken)) {
@@ -121,7 +153,12 @@ public class UserServices implements IUserServices {
 			throw new LoginException("Access Denied...!");
 		}
 	}
-
+	
+	/**
+	 * purpose : to reset password of user
+	 * @param password token
+	 * @return Response
+	 */
 	@Override
 	public Response resetPassword(String password, String token) throws UserNotFoundException {
 		long id = tokenutil.decodeToken(token);
@@ -129,22 +166,33 @@ public class UserServices implements IUserServices {
 		if(user.isPresent()) {
 			user.get().setPassword(password);
 			user.get().setUpdateDate(LocalDateTime.now());
+			userRepo.save(user.get());
 			return new Response("New Password Saved SuccessFully....!",(long)200);
 			
 		}else {
 			throw new UserNotFoundException("This User is not Present at this Database");
 		}	
 	}
-
+	
+	/**
+	 * purpose : to send forgot Password Link
+	 * @param email 
+	 */
 	@Override
 	public void forgotPassword(String email) throws UserNotFoundException {
 		if(userRepo.findByEmail(email) != null) {
-			MailServices.send(email,mailServices.getLink("http://localhost:8991/reset/",userRepo.findByEmail(email).getId()), "Reset Link Sent to you.");
+			MailServices.send(email,"Reset Link Sent to you.",mailServices.getLink("http://localhost:8991/reset/",userRepo.findByEmail(email).getId()));
 		}else {
 			throw new UserNotFoundException("this email not present in this database");
 		}
 	}
-
+	
+	/**
+	 * purpose : to verify credentials of user
+	 * 
+	 * @param loginToken
+	 * @return boolean
+	 */
 	@Override
 	public boolean verifyUser(String token) throws LoginException{
 		Optional<User> isPresent = userRepo.findById(tokenutil.decodeToken(token));
@@ -157,7 +205,12 @@ public class UserServices implements IUserServices {
 		}
 		
 	}
-
+	
+	/**
+	 * purpose : to send OTP to a user
+	 * 
+	 * @param loginToken email
+	 */
 	@Override
 	public void sendOTP(String token, String email) throws LoginException, UserNotFoundException {
 		if(verifyUser(token)) {
@@ -172,7 +225,13 @@ public class UserServices implements IUserServices {
 			}
 		}
 	}
-
+	
+	/**
+	 * purpose : to verify user a OTP
+	 * 
+	 * @param loginToken email otp
+	 * @return Boolean
+	 */
 	@Override
 	public boolean verifyOTP(String token,VerifyOTP varifyotpBody) throws LoginException, UserNotFoundException {
 		if(verifyUser(token)) {
@@ -189,6 +248,46 @@ public class UserServices implements IUserServices {
 			throw new LoginException("this email not present in this database");
 		}	
 		
+	}
+	
+	/**
+	 * purpose : to purchase subscription
+	 * 
+	 * @param loginToken
+	 * @return Boolean
+	 */
+	@Override
+	public boolean purchase(String token)throws LoginException {
+		if(verifyUser(token)) {
+			long id = tokenutil.decodeToken(token);
+			Optional<User> user = userRepo.findById(id);
+			user.get().setPurchaseDate(LocalDateTime.now());
+			user.get().setExpiryDate(user.get().getPurchaseDate().plusYears(1));
+			userRepo.save(user.get());
+			return true;
+		}else {
+			throw new LoginException("Login Failed...!");
+		}
+		
+	}
+	
+	/**
+	 * purpose : to sending expire Email to a user
+	 * @param loginToken userId
+	 * @return Boolean
+	 */
+	@Override
+	public boolean expiryMail(String token, String email) throws LoginException, UserNotFoundException {
+		if(verifyUser(token)) {
+			if(userRepo.findByEmail(email) != null) {
+				MailServices.send(email, "Your Subscription is Ending!Please update.","Subscription Email.");
+				return true;
+			}else {
+				throw new UserNotFoundException("this email not present in this database");
+			}
+		}else {
+			throw new LoginException("Login Failed...!");
+		}	
 	}
 
 }

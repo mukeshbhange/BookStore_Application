@@ -1,7 +1,12 @@
 package com.bl.book_services.response;
 
 import org.springframework.stereotype.Component;
-
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ * purpose : Response model
+ *
+ */
 @Component
 public class Response {
 

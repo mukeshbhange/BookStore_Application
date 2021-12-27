@@ -5,7 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
-
+/**
+ * @author Mukesh_Bhange
+ * 
+ * @version 1.0
+ * @since 24/12/2021
+ *
+ */
 @SpringBootApplication
 public class BookstoreRegistrationApplication {
 

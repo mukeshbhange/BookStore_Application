@@ -4,10 +4,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ */
 @ControllerAdvice
 public class GobalExceptionHandler{
-
 	@ExceptionHandler(value = UserNotFoundException.class)
 	public ResponseEntity<String> userNotFoundException(UserNotFoundException userNotFoundException) {
 		return new ResponseEntity<String>(userNotFoundException.getMessage(), HttpStatus.NOT_FOUND);

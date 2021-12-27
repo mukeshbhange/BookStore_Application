@@ -33,4 +33,8 @@ public interface IUserServices {
 
 	boolean verifyOTP(String token, VerifyOTP vrifyotp)throws LoginException, UserNotFoundException;
 
+	boolean purchase(String token) throws LoginException;
+
+	boolean expiryMail(String token, String email) throws LoginException, UserNotFoundException;
+
 }

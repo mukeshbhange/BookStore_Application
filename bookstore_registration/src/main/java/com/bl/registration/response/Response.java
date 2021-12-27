@@ -1,5 +1,9 @@
 package com.bl.registration.response;
 
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ */
 import org.springframework.stereotype.Component;
 
 @Component

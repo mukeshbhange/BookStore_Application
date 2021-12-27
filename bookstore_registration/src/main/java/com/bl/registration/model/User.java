@@ -2,9 +2,6 @@ package com.bl.registration.model;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Date;
-import java.util.Random;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,6 +14,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
+
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ *
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -55,7 +58,5 @@ public class User {
 		this.password = userDTO.getPassword();
 		this.verify = false;
 		this.registerDate = LocalDateTime.now();
-		this.purchaseDate = LocalDateTime.now();
-		this.expiryDate = purchaseDate.plusMonths(1);
 	}
 }

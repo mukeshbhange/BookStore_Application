@@ -10,7 +10,12 @@ import com.bl.book_services.dto.BookDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ * purpose : BookModel
+ *
+ */
 
 @Data
 @NoArgsConstructor

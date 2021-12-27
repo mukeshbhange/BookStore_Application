@@ -1,5 +1,11 @@
 package com.bl.book_services.services;
 
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ * purpose : BookServices
+ *
+ */
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -22,11 +28,14 @@ public class BookServicesImpl implements IBookServices{
 	@Autowired
 	private RestTemplate restTemplate;
 	
+	
+	/*checks User is Logged in*/
 	public boolean isLogin(String token) {
 		boolean isLogin = restTemplate.getForObject("http://USER-SERVICES/admin/verify?token="+token,Boolean.class);
 		return isLogin;
 	}
-
+	
+	/*Add Book to BookRepository*/
 	@Override
 	public Book addBook(String token, BookDTO bookDTO)  throws LoginException {
 		if(isLogin(token)) {
@@ -36,7 +45,8 @@ public class BookServicesImpl implements IBookServices{
 			throw new LoginException("Access Denied...!");
 		}
 	}
-
+	
+	/*get Book from BookRepo*/
 	@Override
 	public Book getBook(String token, long id) throws BookNotFoundException, LoginException {
 		if(!isLogin(token)) {
@@ -51,7 +61,9 @@ public class BookServicesImpl implements IBookServices{
 			
 		}
 	}
-
+	
+	
+	/*Deleting book from BookRepo*/
 	@Override
 	public Book delete(String token, long id)throws BookNotFoundException, LoginException  {
 		if(this.getBook(token, id) != null) {
@@ -61,7 +73,9 @@ public class BookServicesImpl implements IBookServices{
 			throw new BookNotFoundException("User not present of this Id");
 		}
 	}
-
+	
+	
+	/*Get All Books*/
 	@Override
 	public List<Book> getAllBooks(String token) throws BookNotFoundException, LoginException {
 		if(isLogin(token)) {
@@ -76,7 +90,8 @@ public class BookServicesImpl implements IBookServices{
 			throw new LoginException("Access Denied...!");
 		}
 	}
-
+	
+	/* Edit book by BookId */
 	@Override
 	public Book editBook(String token, long id, BookDTO bookDTO) throws BookNotFoundException, LoginException {
 		if(isLogin(token)) {
@@ -97,7 +112,8 @@ public class BookServicesImpl implements IBookServices{
 			}
 		}
 	}
-
+	
+	/* Change Book Quantity*/
 	@Override
 	public Book editBookQuantity(String token, long id, int quantity) throws LoginException, BookNotFoundException {
 		if(isLogin(token)) {
@@ -109,7 +125,8 @@ public class BookServicesImpl implements IBookServices{
 			throw new LoginException("Access Denied...!");
 		}
 	}
-
+	
+	/*Edit book by bookId*/
 	@Override
 	public Book editBookPrice(String token, long id, double price) throws LoginException, BookNotFoundException{
 		if(isLogin(token)) {
@@ -121,5 +138,25 @@ public class BookServicesImpl implements IBookServices{
 			throw new LoginException("Access Denied...!");
 		}
 	}
+
+	/*@Override
+	public Response setprofile(MultipartFile path, String token, long bookId) throws LoginException, BookNotFoundException{
+		if(isLogin(token)) {
+			Book book = this.getBook(token, bookId);
+			//CONVERTING PATH INTO RANDOM UNIQUE ID AND SAVING INTO THE DATABASE
+			UUID uuid = UUID.randomUUID();
+
+			String uniqueId = uuid.toString();
+			try {
+				Files.copy(path.getInputStream(), fileLocation.resolve(uniqueId), StandardCopyOption.REPLACE_EXISTING);
+				book.setLogo(uniqueId);
+				bookRepo.save(book);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}	
+		}else {
+			throw new LoginException("Access Denied...!");
+		}
+	}*/
 
 }

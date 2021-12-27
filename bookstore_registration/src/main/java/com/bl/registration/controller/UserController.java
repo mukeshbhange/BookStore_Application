@@ -2,6 +2,7 @@ package com.bl.registration.controller;
 
 import java.util.List;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -25,6 +26,15 @@ import com.bl.registration.response.Response;
 import com.bl.registration.services.IUserServices;
 import com.bl.registration.util.TokenUtil;
 
+/**
+ * @author Mukesh_Bhange
+ * 
+ * @version 1.0
+ * @since 27/12/2021
+ *
+ */
+
+
 @RestController
 @RequestMapping("/admin")
 public class UserController {
@@ -34,7 +44,7 @@ public class UserController {
 	@Autowired
 	private TokenUtil tokenutil;
 	
-	
+	/*Registering user for Book Store*/
 	@PostMapping("/register")
 	public ResponseEntity<Response> register(@RequestBody UserDTO userDTO){
 		User user = userServices.registerUser(userDTO);
@@ -42,6 +52,8 @@ public class UserController {
 		return new ResponseEntity<Response>(response,HttpStatus.OK);
 	}
 	
+	
+	/*getting all users from Book Store*/
 	@GetMapping("/allUsers")
 	public ResponseEntity<Response> getAllUsers(@RequestHeader String loginToken) throws LoginException, UserNotFoundException{
 		List<User> users = userServices.getAllUsers(loginToken);
@@ -50,6 +62,7 @@ public class UserController {
 		
 	}
 	
+	/*Login user by using email and password */
 	@GetMapping("/login")
 	public ResponseEntity<Response> checkUser(@RequestHeader String email, @RequestHeader String password) throws LoginException, UserNotFoundException{
 		String isLogin = userServices.loginUser(email, password);
@@ -58,6 +71,7 @@ public class UserController {
 	}
 	
 	
+	/*getting  user from Book Store by userId*/
 	@GetMapping("/get/{id}")
 	public ResponseEntity<Response> getUser(@RequestHeader String loginToken,@PathVariable long id) throws UserNotFoundException, LoginException {
 		User user = userServices.getUser(loginToken, id);
@@ -65,6 +79,7 @@ public class UserController {
 		return new ResponseEntity<Response>(response, HttpStatus.OK);
 	}
 	
+	/*Deleting  user from Book Store by userId*/
 	@DeleteMapping("/deleteUser/{id}")
 	public ResponseEntity<Response> deleteUser(@RequestHeader String loginToken, @PathVariable long id) throws UserNotFoundException, LoginException {
 		User user = userServices.deleteUser(loginToken,id);
@@ -72,6 +87,7 @@ public class UserController {
 		return new ResponseEntity<Response>(response, HttpStatus.OK);
 	}
 	
+	/*updating  user from Book Store by userId*/
 	@PutMapping("/edit/{id}")
 	public ResponseEntity<Response> editUser(@RequestHeader String loginToken, @PathVariable long id,  @RequestBody UserDTO user) throws UserNotFoundException, LoginException {
 		User updatedUser = userServices.editUser(loginToken, id, user);
@@ -79,35 +95,67 @@ public class UserController {
 		return new ResponseEntity<Response>(response, HttpStatus.OK);
 	}
 	
-	@PostMapping("/forgot")
-	ResponseEntity<String> forgotPass(@RequestBody String email) throws UserNotFoundException{
+	/*sending forgot email link  to user from Book Store by email*/
+	@GetMapping("/forgot")
+	ResponseEntity<String> forgotPass(@RequestParam String email) throws UserNotFoundException{
 		userServices.forgotPassword(email);
 		
 		return new ResponseEntity<String>("Reset Link sent",HttpStatus.OK);
 	}
 	
-	@PostMapping("/reset")
-	ResponseEntity<Response> resetpass( @RequestParam String password, @RequestParam String token) throws UserNotFoundException {
+	
+	/*resetting password*/
+	@GetMapping("/reset/{token}")
+	ResponseEntity<Response> resetpass( @RequestParam String password, @PathVariable String token) throws UserNotFoundException {
 		Response res = userServices.resetPassword(password, token);
 		return new ResponseEntity<Response>(res, HttpStatus.OK);
 	}
 	
+	/* Checking if user is present in UserDatabase*/
 	@GetMapping("/verify")
 	ResponseEntity<Boolean> verifyUser(@RequestParam String token)throws LoginException{
 		boolean verifiedUser = userServices.verifyUser(token);
 		return new ResponseEntity<Boolean>(verifiedUser,HttpStatus.OK);
 	}
 	
+	
+	/* Sending 	OTP to verify User*/
 	@GetMapping("/sendotp")
 	ResponseEntity<String> sendOtp(@RequestHeader String token,@RequestParam String email)throws LoginException, UserNotFoundException{
 		userServices.sendOTP(token,email);
 		return new ResponseEntity<String>("OTP has been sent",HttpStatus.OK);
 	}
 	
+	
+	/*Verifying OTP sent*/
 	@GetMapping("/verifydotp")
 	ResponseEntity<String> verifyOtp(@RequestHeader String token,@RequestBody VerifyOTP vrifyotp)throws LoginException, UserNotFoundException{
 		if(userServices.verifyOTP(token,vrifyotp)) {
 			return new ResponseEntity<String>("OTP has been Verified",HttpStatus.OK);
+		}else {
+			throw new LoginException("Wrong OTP");
+		}
+		
+	}
+	
+	
+	/* Buying subscription for BookStore */
+	@GetMapping("/purchase")
+	ResponseEntity<String> purchase(@RequestHeader String token)throws LoginException, UserNotFoundException{
+		if(userServices.purchase(token)) {
+			return new ResponseEntity<String>("Book Store Subscription has been purchased",HttpStatus.OK);
+		}else {
+			throw new LoginException("Wrong OTP");
+		}
+		
+	}
+	
+	
+	/* Expire mail sending to User whose subscription is ending*/
+	@GetMapping("/expirymail")
+	ResponseEntity<String> expiryMail(@RequestHeader String token,@RequestParam String email)throws LoginException, UserNotFoundException{
+		if(userServices.expiryMail(token,email)) {
+			return new ResponseEntity<String>("Expiration mail has been sent",HttpStatus.OK);
 		}else {
 			throw new LoginException("Wrong OTP");
 		}

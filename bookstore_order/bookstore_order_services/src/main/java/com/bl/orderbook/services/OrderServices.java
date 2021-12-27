@@ -16,7 +16,12 @@ import com.bl.orderbook.model.Book;
 import com.bl.orderbook.model.Order;
 import com.bl.orderbook.repository.IOrderRepository;
 
-
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ * purpose : Order Services
+ *
+ */
 @Service
 public class OrderServices implements IOrderServices {
 	
@@ -31,6 +36,7 @@ public class OrderServices implements IOrderServices {
 		return isLogin;
 	}
 
+	@SuppressWarnings("unused")
 	@Override
 	public Order placeOrder(String token, OrderDTO orderDTO) throws LoginException, OrderNotFoundException {
 		if(!isLogin(token)) {

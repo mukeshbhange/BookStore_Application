@@ -3,7 +3,12 @@ package com.bl.book_services.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ * purpose : BookDTO
+ *
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

@@ -20,7 +20,12 @@ import com.bl.book_services.exception.LoginException;
 import com.bl.book_services.model.Book;
 import com.bl.book_services.response.Response;
 import com.bl.book_services.services.IBookServices;
-
+/**
+ * @author Mukesh_Bhange
+ * @since 24/12/2021
+ * purpose : RestAPI controller for Book MicroServices
+ *
+ */
 @RequestMapping("/bookservices")
 @RestController
 public class BookController {
@@ -101,5 +106,13 @@ public class BookController {
 			throw new LoginException("Token / id is incoorect");
 		}
 	}
+	
+	/*@PostMapping(value = "/uploadlogo/{token}")
+	ResponseEntity<Response> setprofile(@RequestParam(value="File") MultipartFile path,@RequestHeader String token,@RequestParam long bookId) throws LoginException, BookNotFoundException
+	{
+		System.out.println("-----"+path);
+		Response response = bookServices.setprofile(path, token,bookId);
+		return new ResponseEntity<>(response, HttpStatus.OK);
+	}*/
 
 }
