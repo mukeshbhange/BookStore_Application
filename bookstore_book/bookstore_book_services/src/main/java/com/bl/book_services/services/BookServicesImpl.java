@@ -1,5 +1,10 @@
 package com.bl.book_services.services;
 
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 /**
  * @author Mukesh_Bhange
  * @since 24/12/2021
@@ -9,10 +14,14 @@ package com.bl.book_services.services;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.bl.book_services.dto.BookDTO;
 import com.bl.book_services.exception.BookNotFoundException;
@@ -27,6 +36,8 @@ public class BookServicesImpl implements IBookServices{
 	
 	@Autowired
 	private RestTemplate restTemplate;
+	
+	private final Path fileLocation = Paths.get("C:\\Users\\dell\\Desktop\\BookStoreProject\\bookstore_book\\bookstore_book_services\\src\\main\\resources\\static\\image");
 	
 	
 	/*checks User is Logged in*/
@@ -140,10 +151,34 @@ public class BookServicesImpl implements IBookServices{
 	}
 
 	/*@Override
-	public Response setprofile(MultipartFile path, String token, long bookId) throws LoginException, BookNotFoundException{
+	public Book setprofile(MultipartFile path, String token, long bookId)
+			throws LoginException, BookNotFoundException {
 		if(isLogin(token)) {
 			Book book = this.getBook(token, bookId);
-			//CONVERTING PATH INTO RANDOM UNIQUE ID AND SAVING INTO THE DATABASE
+			try {
+				Files.copy(path.getInputStream(),Paths.get("C:\\Users\\dell\\Desktop\\BookStoreProject\\bookstore_book\\bookstore_book_services\\src\\main\\resources\\static\\image\\"
+						+ book.getId() + ".png"), StandardCopyOption.REPLACE_EXISTING);
+				book.setLogo(path.getBytes());
+				
+				;
+				if(bookRepo.save(book) != null ) {
+					return book;
+				}else {
+					throw new BookNotFoundException("Error while saving to database");
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}else {
+			throw new LoginException("Access Denied...!");
+		}
+		return null;
+	}*/
+	
+	public Book setprofile(MultipartFile path, String token, long bookId)
+			throws LoginException, BookNotFoundException {
+		if(isLogin(token)) {
+			Book book = this.getBook(token, bookId);
 			UUID uuid = UUID.randomUUID();
 
 			String uniqueId = uuid.toString();
@@ -153,10 +188,36 @@ public class BookServicesImpl implements IBookServices{
 				bookRepo.save(book);
 			} catch (Exception e) {
 				e.printStackTrace();
-			}	
+			}
 		}else {
 			throw new LoginException("Access Denied...!");
 		}
-	}*/
+		return null;
+	}
 
+	@Override
+	public Resource getBookLogo(String token, long bookId) throws BookNotFoundException, LoginException {
+		if(isLogin(token)) {
+			try {
+				Book book = this.getBook(token, bookId);
+				Path imageFile = fileLocation.resolve(book.getLogo());
+				Resource resource = new UrlResource(imageFile.toUri());
+
+				if (resource.exists() || (resource.isReadable())) {
+					System.out.println(resource);
+					return resource;
+				} else {
+					throw new Exception("Couldn't read file: " + imageFile);
+				}
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			return null;
+		}else {
+			throw new LoginException("Access Denied...!");
+		}
+		
+	}
+	
 }

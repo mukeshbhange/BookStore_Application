@@ -3,6 +3,7 @@ package com.bl.book_services.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -10,9 +11,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.bl.book_services.dto.BookDTO;
 import com.bl.book_services.exception.BookNotFoundException;
@@ -34,7 +37,7 @@ public class BookController {
 	private IBookServices bookServices;
 	
 	@PostMapping("/add")
-	public ResponseEntity<Response> addBook(@RequestParam String token,@RequestParam BookDTO bookDTO) throws LoginException{
+	public ResponseEntity<Response> addBook(@RequestHeader String token,@RequestBody BookDTO bookDTO) throws LoginException{
 		Book book = bookServices.addBook(token,bookDTO);
 		Response response = new Response("Book Added Successfully",(long)200,book);
 		return new ResponseEntity<Response>(response,HttpStatus.CREATED);
@@ -107,12 +110,22 @@ public class BookController {
 		}
 	}
 	
-	/*@PostMapping(value = "/uploadlogo/{token}")
-	ResponseEntity<Response> setprofile(@RequestParam(value="File") MultipartFile path,@RequestHeader String token,@RequestParam long bookId) throws LoginException, BookNotFoundException
+	@PostMapping(value = "/uploadlogo")
+	ResponseEntity<String> setprofile(@RequestParam("file") MultipartFile file,@RequestHeader String token,@RequestParam long bookId) throws LoginException, BookNotFoundException
 	{
-		System.out.println("-----"+path);
-		Response response = bookServices.setprofile(path, token,bookId);
-		return new ResponseEntity<>(response, HttpStatus.OK);
-	}*/
+		System.out.println("-----"+file.getOriginalFilename());
+		if(file.isEmpty()) {
+			throw new BookNotFoundException("File path not selected");
+		}
+		bookServices.setprofile(file, token,bookId);
+		return new ResponseEntity<>("Book Logo uploaded successfully.", HttpStatus.OK);
+	}
+	
+	@GetMapping(value = "/getbooklogo")
+	Resource getBookLogo(@RequestHeader String token,@RequestParam long bookId) throws LoginException, BookNotFoundException
+	{
+		Resource path = bookServices.getBookLogo(token,bookId);
+		return path;
+	}
 
 }

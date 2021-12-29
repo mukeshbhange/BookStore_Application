@@ -1,14 +1,15 @@
 package com.bl.book_services.services;
 
+import java.nio.file.Path;
 import java.util.List;
 
+import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.bl.book_services.dto.BookDTO;
 import com.bl.book_services.exception.BookNotFoundException;
 import com.bl.book_services.exception.LoginException;
 import com.bl.book_services.model.Book;
-import com.bl.book_services.response.Response;
 
 public interface IBookServices {
 
@@ -26,5 +27,7 @@ public interface IBookServices {
 
 	Book editBookPrice(String token, long id, double price)throws LoginException, BookNotFoundException;
 
-	//Response setprofile(MultipartFile path, String token, long bookId) throws LoginException, BookNotFoundException;
+	Book setprofile(MultipartFile file, String token, long bookId) throws LoginException, BookNotFoundException;
+
+	Resource getBookLogo(String token, long bookId) throws BookNotFoundException, LoginException;
 }

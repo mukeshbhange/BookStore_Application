@@ -785,3 +785,228 @@
 2021-12-27 12:36:47,872 [Worker-4: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-12-27 12:36:47,872 [Worker-4: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-12-27 12:36:47,872 [Worker-4: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 07:17:08,794 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-28 07:32:55,098 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:32:55,099 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:32:55,107 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:32:55,170 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:32:55,177 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:32:55,177 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:32:55,177 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 07:33:59,318 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:33:59,318 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:33:59,361 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:33:59,371 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:33:59,374 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:33:59,375 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:33:59,375 [Worker-10: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 07:35:26,468 [Worker-19: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:35:26,468 [Worker-19: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:35:26,470 [Worker-19: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:35:26,484 [Worker-19: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:35:26,491 [Worker-19: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:35:26,492 [Worker-19: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:35:26,492 [Worker-19: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 07:41:16,253 [Worker-20: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:41:16,253 [Worker-20: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:41:16,255 [Worker-20: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:41:16,269 [Worker-20: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:41:16,272 [Worker-20: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:41:16,272 [Worker-20: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:41:16,273 [Worker-20: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 07:41:46,998 [Worker-22: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:41:46,998 [Worker-22: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:41:47,000 [Worker-22: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:41:47,013 [Worker-22: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:41:47,017 [Worker-22: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:41:47,017 [Worker-22: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:41:47,017 [Worker-22: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 07:53:05,666 [Worker-27: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:53:05,666 [Worker-27: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:53:05,669 [Worker-27: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:53:05,682 [Worker-27: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:53:05,686 [Worker-27: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:53:05,687 [Worker-27: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:53:05,687 [Worker-27: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 07:56:13,369 [Worker-34: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:56:13,369 [Worker-34: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:56:13,371 [Worker-34: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:56:13,385 [Worker-34: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:56:13,389 [Worker-34: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:56:13,389 [Worker-34: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:56:13,389 [Worker-34: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 07:59:40,194 [Worker-26: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:59:40,195 [Worker-26: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:59:40,197 [Worker-26: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:59:40,206 [Worker-26: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:59:40,212 [Worker-26: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:59:40,212 [Worker-26: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:59:40,213 [Worker-26: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:27:24,364 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:27:24,529 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:27:24,540 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:27:24,628 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:27:24,638 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:27:24,638 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:27:24,639 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:27:47,356 [Worker-36: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:27:47,358 [Worker-36: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:27:47,400 [Worker-36: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:27:47,479 [Worker-36: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:27:47,506 [Worker-36: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:27:47,507 [Worker-36: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:27:47,508 [Worker-36: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:29:38,479 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:29:38,481 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:29:38,492 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:29:38,559 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:29:38,564 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:29:38,564 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:29:38,565 [Worker-44: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:32:06,664 [Worker-36: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:32:06,665 [Worker-36: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:32:06,676 [Worker-36: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:32:06,736 [Worker-36: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:32:06,749 [Worker-36: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:32:06,750 [Worker-36: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:32:06,751 [Worker-36: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:33:21,705 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:33:21,707 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:33:21,714 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:33:21,786 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:33:21,796 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:33:21,797 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:33:21,799 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:34:01,974 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:34:01,975 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:34:01,985 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:34:02,059 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:34:02,068 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:34:02,069 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:34:02,070 [Worker-40: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:37:37,062 [Worker-54: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:37:37,064 [Worker-54: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:37:37,075 [Worker-54: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:37:37,130 [Worker-54: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:37:37,140 [Worker-54: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:37:37,151 [Worker-54: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:37:37,152 [Worker-54: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:38:02,459 [Worker-55: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:38:02,461 [Worker-55: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:38:02,472 [Worker-55: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:38:02,533 [Worker-55: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:38:02,551 [Worker-55: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:38:02,552 [Worker-55: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:38:02,552 [Worker-55: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:51:16,440 [Worker-60: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:51:16,442 [Worker-60: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:51:16,453 [Worker-60: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:51:16,537 [Worker-60: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 08:51:16,550 [Worker-60: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:51:16,551 [Worker-60: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:51:16,552 [Worker-60: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:56:20,035 [Worker-67: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:56:20,036 [Worker-67: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:56:20,050 [Worker-67: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:56:20,106 [Worker-67: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:56:20,216 [Worker-67: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:56:20,217 [Worker-67: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:56:20,218 [Worker-67: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 08:59:24,403 [Worker-68: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:59:24,405 [Worker-68: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:59:24,417 [Worker-68: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:59:24,479 [Worker-68: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 08:59:24,551 [Worker-68: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 08:59:24,552 [Worker-68: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 08:59:24,553 [Worker-68: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:10:34,601 [Worker-71: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:10:34,603 [Worker-71: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:10:34,614 [Worker-71: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:10:34,675 [Worker-71: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:10:34,772 [Worker-71: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:10:34,773 [Worker-71: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:10:34,775 [Worker-71: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:18:22,513 [Worker-78: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:18:22,514 [Worker-78: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:18:22,527 [Worker-78: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:18:22,592 [Worker-78: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:18:22,665 [Worker-78: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:18:22,665 [Worker-78: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:18:22,666 [Worker-78: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:23:27,659 [Worker-82: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:23:27,660 [Worker-82: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:23:27,672 [Worker-82: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:23:27,734 [Worker-82: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:23:27,810 [Worker-82: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:23:27,812 [Worker-82: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:23:27,813 [Worker-82: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:25:52,839 [Worker-74: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:25:52,840 [Worker-74: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:25:52,843 [Worker-74: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:25:52,943 [Worker-74: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:25:53,008 [Worker-74: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:25:53,009 [Worker-74: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:25:53,011 [Worker-74: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:27:46,696 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:27:46,698 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:27:46,700 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:27:46,796 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 09:27:46,809 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:27:46,810 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:27:46,812 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:29:35,657 [Worker-83: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:29:35,658 [Worker-83: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:29:35,669 [Worker-83: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:29:35,712 [Worker-83: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:29:35,724 [Worker-83: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:29:35,725 [Worker-83: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:29:35,727 [Worker-83: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:31:31,650 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:31:31,652 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:31:31,663 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:31:31,721 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:31:31,737 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:31:31,738 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:31:31,739 [Worker-85: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:39:37,791 [Worker-86: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:39:37,792 [Worker-86: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:39:37,795 [Worker-86: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:39:37,833 [Worker-86: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 09:39:37,841 [Worker-86: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:39:37,841 [Worker-86: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:39:37,841 [Worker-86: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:44:45,773 [Worker-70: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:44:45,774 [Worker-70: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:44:45,785 [Worker-70: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:44:45,899 [Worker-70: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-28 09:44:45,982 [Worker-70: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:44:45,983 [Worker-70: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:44:45,984 [Worker-70: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:53:34,981 [Worker-98: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:53:34,981 [Worker-98: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:53:34,985 [Worker-98: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:53:35,014 [Worker-98: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-28 09:53:35,071 [Worker-98: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:53:35,072 [Worker-98: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:53:35,072 [Worker-98: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 09:58:49,769 [Worker-101: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:58:49,769 [Worker-101: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:58:49,781 [Worker-101: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 09:58:49,817 [Worker-101: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-12-28 09:58:49,876 [Worker-101: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 09:58:49,876 [Worker-101: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 09:58:49,877 [Worker-101: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 10:03:04,698 [Worker-92: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 10:03:04,699 [Worker-92: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 10:03:04,713 [Worker-92: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 10:03:04,754 [Worker-92: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-12-28 10:03:04,804 [Worker-92: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 10:03:04,805 [Worker-92: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 10:03:04,805 [Worker-92: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-28 10:06:49,367 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 10:06:49,369 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 10:06:49,392 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 10:06:49,447 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-12-28 10:06:49,476 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 10:06:49,477 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 10:06:49,479 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources

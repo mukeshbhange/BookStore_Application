@@ -1,5 +1,8 @@
 package com.bl.book_services.dto;
 
+
+import javax.persistence.Lob;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
