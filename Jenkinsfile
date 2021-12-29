@@ -18,5 +18,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+         stage('resolve') {
+            steps {
+                echo 'Fixing Bug....'
+            }
+        }
     }
 }
