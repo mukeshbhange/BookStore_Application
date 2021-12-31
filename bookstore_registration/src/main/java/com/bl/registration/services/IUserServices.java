@@ -2,6 +2,8 @@ package com.bl.registration.services;
 
 import java.util.List;
 
+import org.springframework.web.multipart.MultipartFile;
+
 import com.bl.registration.dto.UserDTO;
 import com.bl.registration.exception.LoginException;
 import com.bl.registration.exception.UserNotFoundException;
@@ -37,4 +39,5 @@ public interface IUserServices {
 
 	boolean expiryMail(String token, String email) throws LoginException, UserNotFoundException;
 
+	void saveFromExcel(MultipartFile file) throws LoginException, UserNotFoundException;
 }

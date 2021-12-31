@@ -2,6 +2,8 @@ package com.bl.registration.model;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -34,7 +36,7 @@ public class User {
 	private String firstName;
 	private String lastName;
 	private String kyc;
-	private LocalDate dob;
+	private Date dob;
 	
 	
 	private String email;

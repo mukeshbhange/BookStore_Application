@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bookstore_registration/src/main/resources/user.csv.xlsx&apos; to &apos;user.xlsx&apos;" description="Rename resource &apos;user.csv.xlsx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/user.csv.xlsx" name="user.xlsx" stamp="1640834042346" updateReferences="true"/>
+</session>

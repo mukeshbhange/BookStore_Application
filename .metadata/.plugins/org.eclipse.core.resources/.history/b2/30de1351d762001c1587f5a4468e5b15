@@ -1,5 +1,0 @@
-package com.bl.registration.services;
-
-public interface IUserServices {
-
-}

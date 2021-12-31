@@ -1,5 +1,0 @@
-package com.bl.registration.repository;
-
-public interface IUserRepository {
-
-}

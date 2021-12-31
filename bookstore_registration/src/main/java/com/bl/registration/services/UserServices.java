@@ -1,5 +1,6 @@
 package com.bl.registration.services;
 
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +8,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.bl.registration.dto.UserDTO;
 import com.bl.registration.exception.LoginException;
@@ -15,6 +17,7 @@ import com.bl.registration.model.User;
 import com.bl.registration.model.VerifyOTP;
 import com.bl.registration.repository.IUserRepository;
 import com.bl.registration.response.Response;
+import com.bl.registration.util.ExcelHelper;
 import com.bl.registration.util.MailServices;
 import com.bl.registration.util.TokenUtil;
 
@@ -288,6 +291,20 @@ public class UserServices implements IUserServices {
 		}else {
 			throw new LoginException("Login Failed...!");
 		}	
+	}
+	
+	
+	@Override
+	public void saveFromExcel(MultipartFile file) {
+		
+			try {
+				List<User> userList = ExcelHelper.convertExcelToList(file.getInputStream());
+				userList.forEach(user->System.out.println(user));
+				userList.forEach(user->userRepo.save(user));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 	}
 
 }

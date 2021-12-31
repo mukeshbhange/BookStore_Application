@@ -1209,3 +1209,205 @@
 2021-12-23 20:44:16,012 [Worker-37: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-12-23 20:44:16,012 [Worker-37: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-12-23 20:44:16,012 [Worker-37: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 09:25:12,593 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-24 09:57:03,172 [Worker-22: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 09:57:03,916 [Worker-22: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 09:57:03,943 [Worker-22: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 09:57:05,410 [Worker-22: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 09:57:05,588 [Worker-22: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 09:57:05,588 [Worker-22: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 09:57:05,589 [Worker-22: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 09:58:53,958 [Worker-24: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 09:58:53,959 [Worker-24: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 09:58:54,108 [Worker-24: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 09:58:54,158 [Worker-24: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 09:58:54,172 [Worker-24: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 09:58:54,172 [Worker-24: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 09:58:54,173 [Worker-24: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 09:59:47,535 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 09:59:47,535 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 09:59:47,537 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 09:59:47,548 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 09:59:47,551 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 09:59:47,551 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 09:59:47,551 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 10:02:18,037 [Worker-26: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:02:18,037 [Worker-26: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:02:18,039 [Worker-26: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 10:02:18,047 [Worker-26: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 10:02:18,050 [Worker-26: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:02:18,050 [Worker-26: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:02:18,051 [Worker-26: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 10:03:37,210 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:03:37,211 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:03:37,213 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 10:03:37,228 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 10:03:37,231 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:03:37,231 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:03:37,232 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 10:04:52,206 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:04:52,206 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:04:52,209 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 10:04:52,223 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 10:04:52,227 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:04:52,227 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:04:52,227 [Worker-27: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 10:07:33,779 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:07:33,780 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:07:33,784 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 10:07:33,809 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 10:07:33,813 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:07:33,814 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:07:33,814 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 10:09:30,753 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:09:30,753 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:09:30,755 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 10:09:30,768 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 10:09:30,773 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:09:30,773 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:09:30,773 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-24 10:11:57,417 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:11:57,418 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:11:57,422 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-24 10:11:57,442 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-24 10:11:57,445 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-24 10:11:57,445 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-24 10:11:57,446 [Worker-31: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-25 19:21:48,186 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-25 20:26:32,474 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-25 20:26:33,370 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-25 20:26:33,380 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-25 20:26:33,560 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-25 20:26:33,567 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-25 20:26:33,567 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-25 20:26:33,568 [Worker-18: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-27 08:52:09,103 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-27 09:42:55,094 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-12-27 09:43:00,879 [Worker-3: Launching bookstore_registration] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\dell\Desktop\BookStoreProject\bookstore_registration
+2021-12-27 09:43:00,880 [Worker-3: Launching bookstore_registration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B  -Dstyle.color=always
+2021-12-27 10:23:12,888 [Worker-30: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-27 10:23:12,888 [Worker-30: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-27 10:23:12,891 [Worker-30: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-27 10:23:12,948 [Worker-30: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-27 10:23:12,952 [Worker-30: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-27 10:23:12,952 [Worker-30: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-27 10:23:12,952 [Worker-30: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-27 11:30:11,244 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-27 12:18:14,918 [Worker-13: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-27 12:18:14,919 [Worker-13: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-27 12:18:14,923 [Worker-13: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-27 12:18:14,985 [Worker-13: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-27 12:18:14,991 [Worker-13: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-27 12:18:14,991 [Worker-13: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-27 12:18:14,991 [Worker-13: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-28 07:45:22,616 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-28 07:45:37,891 [Worker-1: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:45:37,892 [Worker-1: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:45:37,897 [Worker-1: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-28 07:45:38,032 [Worker-1: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-28 07:45:38,036 [Worker-1: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-28 07:45:38,038 [Worker-1: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-28 07:45:38,039 [Worker-1: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-29 09:13:00,423 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-29 10:28:55,367 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-29 11:26:46,421 [Worker-10: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-29 11:26:46,488 [Worker-10: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-29 11:26:46,493 [Worker-10: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-29 11:26:46,673 [Worker-10: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-29 11:26:46,677 [Worker-10: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-29 11:26:46,677 [Worker-10: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-29 11:26:46,678 [Worker-10: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-30 08:34:12,740 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-30 08:37:57,326 [Worker-0: Build Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bl:bookstore_registration:0.0.1-SNAPSHOT @ C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\pom.xml.
+2021-12-30 08:38:13,322 [Worker-0: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 08:38:13,323 [Worker-0: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 08:38:13,402 [Worker-0: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 08:38:13,438 [Worker-0: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-30 08:38:13,441 [Worker-0: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 08:38:13,441 [Worker-0: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 08:38:13,441 [Worker-0: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-30 08:50:29,763 [Worker-12: Build Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bl:bookstore_registration:0.0.1-SNAPSHOT @ C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\pom.xml.
+2021-12-30 08:50:33,886 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+2021-12-30 08:50:34,136 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+2021-12-30 08:50:34,136 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
+2021-12-30 08:50:34,140 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0.jar
+2021-12-30 08:50:34,140 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.1.0/poi-5.1.0.jar
+2021-12-30 08:50:39,077 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+2021-12-30 08:50:39,689 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+2021-12-30 08:50:43,886 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+2021-12-30 08:50:49,894 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+2021-12-30 08:50:50,350 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
+2021-12-30 08:51:00,878 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.1.0/poi-5.1.0.jar
+2021-12-30 08:51:05,866 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0.jar
+2021-12-30 08:51:10,818 [Worker-12: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 08:51:10,818 [Worker-12: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 08:51:10,885 [Worker-12: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 08:51:10,931 [Worker-12: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 08:51:10,940 [Worker-12: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 08:51:10,941 [Worker-12: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 08:51:10,941 [Worker-12: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-30 08:51:15,223 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.1.0/poi-ooxml-5.1.0-sources.jar
+2021-12-30 08:51:21,970 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.1.0/poi-ooxml-5.1.0-sources.jar
+2021-12-30 08:51:23,004 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.poi:poi-ooxml:5.1.0
+2021-12-30 08:51:24,777 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.1.0/poi-5.1.0-sources.jar
+2021-12-30 08:51:30,700 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.1.0/poi-5.1.0-sources.jar
+2021-12-30 08:51:31,270 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.poi:poi:5.1.0
+2021-12-30 08:51:32,437 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar
+2021-12-30 08:51:37,445 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar
+2021-12-30 08:51:38,100 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-math3:3.6.1
+2021-12-30 08:51:39,058 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2-sources.jar
+2021-12-30 08:51:39,532 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2-sources.jar
+2021-12-30 08:51:40,057 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.zaxxer:SparseBitSet:1.2
+2021-12-30 08:51:41,171 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0-sources.jar
+2021-12-30 08:51:51,426 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0-sources.jar
+2021-12-30 08:51:51,671 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.poi:poi-ooxml-lite:5.1.0
+2021-12-30 08:51:52,397 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2-sources.jar
+2021-12-30 08:51:54,306 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2-sources.jar
+2021-12-30 08:51:55,856 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.xmlbeans:xmlbeans:5.0.2
+2021-12-30 08:51:57,184 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar
+2021-12-30 08:51:58,434 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar
+2021-12-30 08:51:59,410 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-compress:1.21
+2021-12-30 08:52:00,150 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar
+2021-12-30 08:52:01,093 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar
+2021-12-30 08:52:01,498 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.11.0
+2021-12-30 08:52:02,639 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.06/curvesapi-1.06-sources.jar
+2021-12-30 08:52:03,381 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.06/curvesapi-1.06-sources.jar
+2021-12-30 08:52:03,829 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.virtuald:curvesapi:1.06
+2021-12-30 08:52:04,550 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4-sources.jar
+2021-12-30 08:52:05,642 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4-sources.jar
+2021-12-30 08:52:06,132 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-collections4:4.4
+2021-12-30 08:54:40,177 [Worker-17: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 08:54:40,178 [Worker-17: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 08:54:40,179 [Worker-17: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 08:54:40,184 [Worker-17: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 08:54:40,189 [Worker-17: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 08:54:40,189 [Worker-17: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 08:54:40,189 [Worker-17: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-30 09:46:35,845 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 09:46:35,845 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 09:46:35,847 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 09:46:35,865 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-30 09:46:35,869 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 09:46:35,870 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 09:46:35,870 [Worker-29: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-30 09:54:53,838 [Worker-33: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 09:54:53,838 [Worker-33: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 09:54:53,839 [Worker-33: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 09:54:53,850 [Worker-33: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-30 09:54:53,855 [Worker-33: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 09:54:53,855 [Worker-33: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 09:54:53,856 [Worker-33: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-30 09:56:36,610 [Worker-42: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 09:56:36,610 [Worker-42: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 09:56:36,612 [Worker-42: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 09:56:36,623 [Worker-42: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-30 09:56:36,627 [Worker-42: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 09:56:36,627 [Worker-42: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 09:56:36,627 [Worker-42: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources
+2021-12-30 09:58:59,567 [Worker-46: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 09:58:59,567 [Worker-46: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 09:58:59,568 [Worker-46: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-30 09:58:59,577 [Worker-46: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-30 09:58:59,582 [Worker-46: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-30 09:58:59,583 [Worker-46: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-30 09:58:59,583 [Worker-46: Launching bookstore_registration - BookstoreRegistrationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_registration\src\test\resources

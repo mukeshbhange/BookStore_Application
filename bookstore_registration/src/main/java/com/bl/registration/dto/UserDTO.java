@@ -1,6 +1,8 @@
 package com.bl.registration.dto;
 
 import java.time.LocalDate;
+import java.util.Date;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,7 +22,7 @@ public class UserDTO {
 	private String firstName;
 	private String lastName;
 	private String kyc;
-	private LocalDate dob;
+	private Date dob;
 	private String email;
 	private String password;
 }

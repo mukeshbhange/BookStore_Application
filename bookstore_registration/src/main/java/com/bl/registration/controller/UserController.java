@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.bl.registration.dto.UserDTO;
 import com.bl.registration.exception.LoginException;
@@ -24,6 +25,7 @@ import com.bl.registration.model.User;
 import com.bl.registration.model.VerifyOTP;
 import com.bl.registration.response.Response;
 import com.bl.registration.services.IUserServices;
+import com.bl.registration.util.ExcelHelper;
 import com.bl.registration.util.TokenUtil;
 
 /**
@@ -158,6 +160,18 @@ public class UserController {
 			return new ResponseEntity<String>("Expiration mail has been sent",HttpStatus.OK);
 		}else {
 			throw new LoginException("Wrong OTP");
+		}
+		
+	}
+	
+	
+	@PostMapping("/uploadexcel")
+	public ResponseEntity<?> uploadExcel(@RequestParam("file") MultipartFile file)  throws LoginException, UserNotFoundException{
+		if(ExcelHelper.checkExcelFormat(file)) {
+			userServices.saveFromExcel(file);
+			return ResponseEntity.ok("Excel file Uploaded and file infoSaved");
+		}else {
+			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Please Upload Excel File only");
 		}
 		
 	}

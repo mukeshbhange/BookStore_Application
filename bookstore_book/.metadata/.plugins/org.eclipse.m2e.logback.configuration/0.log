@@ -1010,3 +1010,10 @@
 2021-12-28 10:06:49,476 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-12-28 10:06:49,477 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-12-28 10:06:49,479 [Worker-102: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\Desktop\BookStoreProject\bookstore_book\bookstore_book_services\src\test\resources
+2021-12-29 11:23:04,931 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-29 11:26:46,421 [Worker-7: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-29 11:26:46,421 [Worker-7: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-12-29 11:26:46,452 [Worker-7: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-29 11:26:46,665 [Worker-7: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-29 11:26:46,750 [Worker-7: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-29 11:26:46,750 [Worker-7: Launching bookstore_book_services - BookstoreBookServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
